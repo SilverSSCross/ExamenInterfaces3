@@ -83,7 +83,7 @@ public class MainController implements Initializable {
 
     //Añadir usuario
     public void addUser(ActionEvent event){
-        if (add_correo.getText().equals(null)){
+        if (add_correo.getText().isEmpty()){
             add_label.setText("Añade el correo");
         }else {
             try{

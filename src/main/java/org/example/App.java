@@ -10,9 +10,9 @@ public class App extends Application {
     public void start(Stage primaryStage) throws Exception {
         JavaFXUtil.initStage(primaryStage);
 
-//        //Sonido para toda la aplicacion
-//        SoundUtil.initialize();
-//        SoundUtil.playMedia();
+       //Sonido para toda la aplicacion
+        SoundUtil.initialize();
+        SoundUtil.playMedia();
 
         JavaFXUtil.setScene("/view/main-view.fxml");
     }
